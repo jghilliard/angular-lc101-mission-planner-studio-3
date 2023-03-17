@@ -5,7 +5,9 @@
 
 button {
     margin: 2px;
-    cursor: pointer;
+    cursor:auto;
+    border-radius: 6px;
+
 }
 
 h3 {
@@ -16,11 +18,14 @@ h3 {
 
 .active{
     background: rgb(172, 211, 172);
+    color: black;
 }
 
 .nearMaxMass{
     font-weight: bolder;
     color: red;
+    /* border-color:black;
+    border: 3px; */
 }
 
 
